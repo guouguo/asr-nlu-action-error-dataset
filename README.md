@@ -24,4 +24,3 @@ This repository contains evaluation datasets and saved model outputs supporting 
 - The full-chain replay is a replay of Audio603, not an additional independent test set.
 - Dataset use and redistribution rights must be established separately; no open license has been assigned yet.
 
-No participant identity mapping or consent documentation is included.
