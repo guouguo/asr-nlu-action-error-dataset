@@ -6,6 +6,7 @@ This repository contains evaluation datasets and saved model outputs supporting 
 
 | File | Description |
 | --- | --- |
+| `data/audio/audio603/` | 603 original WAV speech recordings, copied byte-for-byte from the source repository with filenames and directory structure preserved; all 603 files were verified using SHA-256 checksums. |
 | `data/splits/audio603.csv` | Index of 603 held-out speech samples, manually verified reference transcripts, speaker pseudonyms, and gold intent labels. |
 | `data/labels/text1351.csv` | 1,351-item within-ontology text evaluation set. |
 | `data/labels/stress500.csv` | Frozen, template-generated 500-item stress evaluation set (270 Stress-A and 230 Stress-S). |
