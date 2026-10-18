@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "experiment": "formal603_integrated_performance_replay_v1",
+  "run_id": "formal603_integrated_replay_recovery_v1_20260827T073223Z",
+  "scope": "post-hoc single-process integration replay and performance characterization; not an independent accuracy test",
+  "inference_result": "PASS",
+  "procedural_audit_status": "UNRESOLVED_EXECUTION_COUNTER_PROVENANCE",
+  "procedural_audit_reason": "The historical offline evaluation contains an unresolved formal-run execution-counter provenance flag. This does not affect the completed 603/603 replay or exact frozen output alignment.",
+  "started_utc": "2026-08-27T07:33:22.773952Z",
+  "completed_utc": "2026-08-27T07:37:28.206393Z",
+  "counts": {
+    "attempted": 603,
+    "completed": 603,
+    "api_failures": 0,
+    "finite_logits": 603,
+    "warmup_count": 0,
+    "sample_reruns": 0
+  },
+  "exact_alignment": {
+    "asr_text": 603,
+    "normalized_text": 603,
+    "rule_label": 603,
+    "bert_top1": 603,
+    "final_intent": 603
+  },
+  "asr_against_gold": {
+    "cer": 0.025800286669851888,
+    "total_edit_distance": 108,
+    "gold_characters": 4186,
+    "error_samples": 79
+  },
+  "nlu_against_gold": {
+    "samples": 603,
+    "accuracy": 0.9701492537313433,
+    "macro_f1": 0.9756458006935055,
+    "correct_action_count": 447,
+    "correct_reject_count": 138,
+    "false_accept_count": 0,
+    "false_reject_count": 18,
+    "wrong_action_count": 0
+  },
+  "performance_all_603": {
+    "asr_latency_ms": {
+      "count": 603,
+      "mean": 320.50798019071306,
+      "p50": 309.017881,
+      "p95": 483.98100689999995,
+      "p99": 538.40830826,
+      "min": 155.10865,
+      "max": 596.42334
+    },
+    "nlu_latency_ms": {
+      "count": 603,
+      "mean": 77.73929012769486,
+      "p50": 79.402602,
+      "p95": 91.1311661,
+      "p99": 93.97380886,
+      "min": 52.577982,
+      "max": 100.15841
+    },
+    "e2e_latency_ms": {
+      "count": 603,
+      "mean": 398.24847618242126,
+      "p50": 390.43613,
+      "p95": 565.1976156999999,
+      "p99": 626.4934859600002,
+      "min": 210.812741,
+      "max": 676.581581
+    },
+    "rtf": {
+      "count": 603,
+      "mean": 0.24071233202653397,
+      "p50": 0.23590382,
+      "p95": 0.3078781273,
+      "p99": 0.36727757012000006,
+      "min": 0.15918183,
+      "max": 0.437916533
+    }
+  },
+  "resource_usage": {
+    "available": true,
+    "maximum_rss_mib": 1627.90234375,
+    "exit_status": 0
+  },
+  "model_initialization_counts": {
+    "encoder": 1,
+    "ctc": 1,
+    "decoder": 1,
+    "nlu": 1
+  },
+  "notes": [
+    "This is a post-hoc replay of the same frozen Audio603 set.",
+    "It is not an independent accuracy test."
+  ]
+}
