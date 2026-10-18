@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "mode": "validate",
+  "run_id": "onepass_validate160_20260826T104151Z",
+  "attempted": 160,
+  "completed": 160,
+  "expected_samples": 160,
+  "finite_logits": 160,
+  "api_failures": 0,
+  "alignment": {
+    "asr_text_exact": 160,
+    "normalized_text_exact": 160,
+    "rule_label_exact": 160,
+    "bert_top1_exact": 160,
+    "final_intent_exact": 160
+  },
+  "model_initialization_counts": {
+    "encoder": 1,
+    "ctc": 1,
+    "decoder": 1,
+    "nlu": 1
+  },
+  "single_process_direct_transfer": true,
+  "historical_asr_text_used_for_decision": false,
+  "formal_sample_reruns": 0,
+  "started_unix_time": 1787741522.8226845,
+  "completed_unix_time": 1787741582.6216888
+}
